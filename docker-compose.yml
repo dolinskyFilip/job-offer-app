@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  job-offer-app-container:
+    image: job-offer-app:1
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /docker/job-offer-app
+    ports:
+      - "8080:8080"
