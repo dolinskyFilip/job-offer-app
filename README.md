@@ -39,11 +39,11 @@ _e.g. http://localhost:8080/dna/users/Filip_
 
 # JOB OFFERS
 **Use endpoint /dna/offers with GET method** <br />
-**Job-offer-app will return your valid job offers a JSON in response** <br />
+**Job-offer-app will return your valid job offers as a JSON in response** <br />
 _e.g. http://localhost:8080/dna/offers_
 
 **Use endpoint /dna/offers with POST and set RequestBody with JobOfferDTO data** <br />
-**Job-offer-app will return created Job Offer a JSON in response** <br />
+**Job-offer-app will return created Job Offer as a JSON in response** <br />
 _e.g. http://localhost:8080/dna/offers_
 
 
