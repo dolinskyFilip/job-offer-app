@@ -27,6 +27,7 @@ _/dna/offers_
 **Job-offer-app will return your user as a JSON in response** <br />
 _e.g. http://localhost:8080/dna/users/Filip_
 
+
 **Use endpoint /dna/user with POST method and set RequestBody with UserDTO data** <br />
 **Job-offer-app will return your user created as a JSON in response** <br />
 
