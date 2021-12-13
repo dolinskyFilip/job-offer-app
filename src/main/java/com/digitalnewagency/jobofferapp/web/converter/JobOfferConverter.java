@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 public class JobOfferConverter {
 
     public JobOffer convertJobOfferDTOToJobOffer(JobOfferDTO jobOfferDTO) {
-        if (jobOfferDTO == null) throw new WrongParameterException("User cannot be null");
+        if (jobOfferDTO == null) throw new WrongParameterException("JobOffer cannot be null");
         if (jobOfferDTO.getEndDate().isBefore(jobOfferDTO.getStartDate()))
             throw new WrongParameterException(("Start date have to be before end date"));
 
